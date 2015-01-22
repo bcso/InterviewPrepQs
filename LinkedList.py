@@ -28,3 +28,9 @@ class LinkedList:
 			currNode = currNode.next
 		ListString = ListString + str(currNode.item)
 		return ListString
+
+	def getHead(self):
+		return self.head
+
+	def getTail(self):
+		return self.tail
